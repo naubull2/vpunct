@@ -1,0 +1,56 @@
+{
+    "TO":{
+        "PRON,WP" : true,
+        "DET,WDT" : true
+    },
+    "IN":{
+        "PRON,WP" : true,
+        "DET,WDT" : true
+    },
+    "be,VERB":{
+        "not,ADV": {
+            "PRP": true
+        },
+        "PRP": true,
+        "DT": true
+    },
+    "do,VERB":{
+        "not,ADV": {
+            "PRP": true
+        },
+        "PRP": true
+    },
+    "WP$":{
+        "be,VERB": true
+    },
+    "PRON,WP":{
+        "be,VERB": true
+    },
+    "ADV,WRB":{
+        "do,VERB": true,
+        "be,VERB": true,
+        "can,VERB": true,
+        "should,VERB": true,
+        "would,VERB": true,
+        "might,VERB": true,
+        "could,VERB": true
+    },
+    "can,VERB":{
+         "PRP": true
+    },
+    "could,VERB":{
+         "PRP": true
+    },
+    "would,VERB":{
+         "PRP": true
+    },
+    "might,VERB":{
+         "PRP": true
+    },
+    "should,VERB":{
+         "i,PRON": true
+    },
+    "will,VERB":{
+         "PRP": true
+    }
+}
