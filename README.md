@@ -19,7 +19,8 @@
 + You can either tag [.!?] based on pattern rules only, otherwise use a neural network model
 
 ```
-./vip -m [neural|pattern]  // defaults to pattern, in which case you won't need keras
+python punctuate.py -m [neural|pattern]  // defaults to pattern, in which case you won't need keras
+python punctuate.py -e   // evaluate on a movie dialogue dataset
 ```
 
 ## Performance

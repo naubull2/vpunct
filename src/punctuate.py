@@ -66,6 +66,7 @@ def _pattern_tag(message, doc):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('-m', '--mode', default='pattern', help='Mode to run on [pattern|neural], only pattern for now')
     parser.add_argument('-e', '--eval', action='store_true', help='Evaluate on the dialogue dataset')
     args = parser.parse_args()
     if args.eval:
